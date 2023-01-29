@@ -1,0 +1,39 @@
+.navigation{
+    opacity:0.8;
+    z-index: 20;
+    position: fixed;
+    top:0px;
+    width:100%;
+    background-color: white;
+    .navigationContent{
+        display:flex;
+        justify-content: space-between;
+        padding:10px 30px 10px 30px;
+        border: 1px solid black;
+        .leftContent{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            img{
+                width:40px;
+                border-radius: 30%;
+                border:1px solid black;   
+            }
+            h1{
+                font-size: 25px;
+                padding:10px;
+            }
+            
+        }
+        ul{
+            display:flex;
+            justify-content: space-around;
+            li{
+                padding:10px;
+                span{
+                    font-size:25px;
+                }
+            }
+        }
+    }
+}
