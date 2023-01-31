@@ -10,7 +10,8 @@ const Home = () => {
                 <Social />
                 <div className='homeContent'>
                     <h1 >Thibaut Lenoir</h1>
-                    <span>Développeur de sites web et concepteur d'applications.</span>
+                    <span>Développeur de sites web.</span>
+                    <h2>Créé et développé par Thibaut -© 2023 Tout droit réservé-</h2>
                 </div>
                 <div className="pdf">
                     <a href={ThibautCv}  aria-label="lien cv" target="blank">Télécharger cv</a>
