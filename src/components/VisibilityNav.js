@@ -6,15 +6,15 @@ const VisibilityNav = () => {
     const [visibility, setVisibility] = useState(false)
     function changeVisibility () {
         setVisibility(!visibility)
-     }
+    }
+
     return (
     <>
         <div className="icone-afficher-nav" aria-label='bouton navigation' onClick={changeVisibility} title="Afficher navigation">
-            
             <i class="fas fa-ellipsis-h"></i>
         </div>
         <div>
-         {visibility && <Navigation />}
+            {visibility && <Navigation />}
         </div>
      </>
     );

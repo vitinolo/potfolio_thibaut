@@ -3,9 +3,36 @@
     background: radial-gradient(#2e83a0,#1f1013);
     background-size: cover;
     background-position: top;
+    color:white;
     .aboutContent{
-        h1{
-            
+        padding:10%;
+        .wrapper{
+            display:flex;
+            justify-content: center;
+            justify-content: space-around;
+            padding: 10px;
+            i{
+                font-size: 40px;
+            }
+            .languages{
+                h1{
+                    
+                }
+                .item{
+                    font-size: 20px;
+                    margin: 20px 0px 0px 0px;
+                }
+            }
+            .skills{
+                h1{
+                    
+                }
+                .item{
+                    font-size: 20px;
+                    margin: 20px 0px 0px 0px;
+                }
+            }
+
         }
     }
 }

@@ -8,20 +8,19 @@
         display:flex;
         justify-content: space-between;
         padding:10px 30px 10px 30px;
-        border: 1px solid black;
         .leftContent{
             opacity:1;
             display:flex;
             justify-content: space-around;
             align-items: center;
             img{
-                width:40px;
-                border-radius: 30%;
-                border:1px solid black;   
+                width:60px;
+                border-radius: 15px;
+                border:1px solid white;   
             }
             h1{
                 color:white;
-                font-weight: 50;
+                font-weight:lighter;
                 font-size: 20px;
                 padding:10px;
             }
