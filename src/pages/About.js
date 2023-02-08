@@ -15,7 +15,7 @@ const About = () => {
                         <div className="item"><i class="fab fa-css3-alt"></i> Css3</div>
                         <div className="item"><i class="fab fa-html5"></i> Html5</div>
                         <div className="item"><i class="fab fa-js-square"> Javascript</i></div>
-                        <div className="item"><i class="fab fa-react"></i> REACT.JS</div>
+                        <div className="item"><i class="fab fa-react fa-spin"></i> React.js</div>
                         <div className="item"><i class="fab fa-node-js"> Node.js</i></div>
                     </div>
                     <div className='skills'>
@@ -25,7 +25,15 @@ const About = () => {
                         <div className="item">MongoDB</div>
                         <div className="item">Vscode</div>
                         <div className="item">Postman</div>
-                        <div className="item">anglais</div>
+                        <div className="item">Anglais</div>
+                    </div>
+                    <div className='hobbies'>
+                        <h1>Hobbies :</h1>
+                        <div className="item"><i class="fas fa-code"> Code</i></div>
+                        <div className="item"><i class="fas fa-music"> Piano</i></div>
+                        <div className="item"><i class="fas fa-palette"> Peinture</i></div>
+                        <div className="item"><i class="fas fa-hiking"> Randonnée</i></div>
+                        <div className="item">Touring</div>
                     </div>
                 </div>    
             </div>

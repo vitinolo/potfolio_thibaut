@@ -6,31 +6,55 @@
     color:white;
     .aboutContent{
         padding:10%;
+        h1{
+            padding: 0PX 50PX 0PX 50PX;       
+        }
         .wrapper{
             display:flex;
             justify-content: center;
             justify-content: space-around;
-            padding: 10px;
-            i{
-                font-size: 40px;
-            }
+            padding: 50px;
             .languages{
+                z-index:30;
+                opacity:0.8;
+                background-color:rgb(183, 66, 150);
+                box-shadow: 30px 30px 30px black;
+                padding:10px;
                 h1{
-                    
+                   
                 }
                 .item{
-                    font-size: 20px;
+                    font-size: 40px;
                     margin: 20px 0px 0px 0px;
                 }
             }
             .skills{
+                z-index:30;
+                opacity:0.8;
+                background-color:rgb(183, 66, 150);
+                box-shadow: 30px 30px 30px black;
+                padding:10px;
                 h1{
                     
                 }
                 .item{
-                    font-size: 20px;
+                    font-size: 40px;
                     margin: 20px 0px 0px 0px;
                 }
+            }
+            .hobbies{
+                z-index:30;
+                opacity:0.8;
+                background-color:rgb(183, 66, 150);
+                box-shadow: 30px 30px 30px black;
+                padding:10px;
+                h1{
+                    
+                }
+                .item{
+                    font-size: 40px;
+                    margin: 20px 0px 0px 0px;
+                } 
             }
 
         }
