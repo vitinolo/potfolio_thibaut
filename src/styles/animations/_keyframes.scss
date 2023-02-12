@@ -25,3 +25,15 @@
     80%{opacity: .9;}
     100%{opacity: 1;}
   }
+  //card apparition
+  @keyframes slide-in-left {
+    0% {
+      transform: translateX(-1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  

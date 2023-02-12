@@ -11,7 +11,7 @@ const VisibilityNav = () => {
     return (
     <>
         <div className="icone-afficher-nav" aria-label='bouton navigation' onClick={changeVisibility} title="Afficher navigation">
-            <i class="fas fa-ellipsis-h"></i>
+            <i className="fas fa-ellipsis-h"></i>
         </div>
         <div>
             {visibility && <Navigation />}

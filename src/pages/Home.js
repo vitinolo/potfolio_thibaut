@@ -2,7 +2,7 @@ import React from 'react';
 import VisibilityNav from '../components/VisibilityNav';
 import Social from'../components/Social';
 import ThibautCv from '../documents/Thibaut_Lenoir_cv.pdf';
-
+import Light from '../components/Light';
 const Home = () => {
     return (
         <>
@@ -15,15 +15,7 @@ const Home = () => {
                     <p id='head4' class='header'>- © 2023 Tout droit réservé -</p>
                     <p id='head5' class='header'>Bienvenue dans mon porfolio !</p>
                     <button className='cv'><a href={ThibautCv}  aria-label="lien cv" target="blank" title='télécharger cv'>Télécharger cv</a></button>
-                    <div class='light x1'></div>
-                    <div class='light x2'></div>
-                    <div class='light x3'></div>
-                    <div class='light x4'></div>
-                    <div class='light x5'></div>
-                    <div class='light x6'></div>
-                    <div class='light x7'></div>
-                    <div class='light x8'></div>
-                    <div class='light x9'></div>
+                    <Light />
             </div>
         </>
     );
