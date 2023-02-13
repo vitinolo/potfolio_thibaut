@@ -1,8 +1,8 @@
 import React from 'react';
 import VisibilityNav from '../components/VisibilityNav';
 import Social from'../components/Social';
-import Card from '../components/Card';
 import Light from '../components/Light';
+import ProjectList from '../components/ProjectList';
 
 const Projects = () => {
     return (
@@ -11,7 +11,7 @@ const Projects = () => {
             <Social />
             <Light />
             <div className='projectsContent'>
-                <Card />
+                <ProjectList />
             </div>
         </div>
     );

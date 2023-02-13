@@ -4,11 +4,11 @@ function Card ({type, name, languages, languagesIcons, source, info})  {
     return (
         <div className='projectContent'>
             <h1>{name}</h1>
-            <span>{type}</span>
-            <div className='languages'>{languages}</div>
+            <span>Type: {type}</span>
+            <div className='languages'>Langages: {languages}</div>
             <div className="languagesIcons">{languagesIcons}</div>
-            <div className="source"><a href={source}>Code source</a></div>
-            <div className="info">{info}</div>
+            <div className="source"><a href={source} title='cliquer vers code source'>Code source</a></div>
+            <div className="info">Info: {info}</div>
         </div>    
     );
 };
