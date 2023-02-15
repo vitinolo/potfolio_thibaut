@@ -15,9 +15,9 @@ const About = () => {
                         <span>Langages utilisés:</span>
                         <div className="item"><i class="fab fa-css3-alt"></i> Css3</div>
                         <div className="item"><i class="fab fa-html5"></i> Html5</div>
-                        <div className="item"><i class="fab fa-js-square"> Javascript</i></div>
+                        <div className="item"><i class="fab fa-js-square"></i> Javascript</div>
                         <div className="item"><i class="fab fa-react fa-spin"></i> React.js</div>
-                        <div className="item"><i class="fab fa-node-js"> Node.js</i></div>
+                        <div className="item"><i class="fab fa-node-js"></i> Node.js</div>
                     </div>
                     <div className='skills card'>
                         <span>Skills:</span>

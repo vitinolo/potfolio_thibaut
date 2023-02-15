@@ -10,8 +10,8 @@ function Card ({type, picture, name, languages, source, info})  {
                 </div>
                 <div className='wrapper2'>
                     <div className='type'>Type de projet: {type}</div>
-                    <div className='languages'>Langages: {languages}</div>
                     <div className="source"><a href={source} title='cliquer vers code source'>Code source</a></div>
+                    <div className='languages'>Langages: {languages}</div>
                     <div className="info">Info: {info}</div>
                 </div>
             </>

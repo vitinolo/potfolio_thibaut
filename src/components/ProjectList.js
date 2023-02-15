@@ -9,7 +9,7 @@ function ProjectList () {
         name: 'Booki',
         picture: 'img/p2_portfolio.png',
         type: "école.",
-        languages: ['html css.'],
+        languages: 'html css.',
         source: 'https://github.com/vitinolo/thibautlenoir_2_20092021',
         info: 'Transformez une maquette en site web avec HTML & CSS.', 
       },
@@ -18,7 +18,7 @@ function ProjectList () {
         name: 'Ohmyfood',
         picture: '/img/p3_portfolio.png',
         type: "école.",
-        languages: ['html css.'],
+        languages: 'html css.',
         source: 'https://github.com/vitinolo/ThibautLenoir_3_20112021',
         info: 'Dynamisez une page web avec des animations CSS.',
       },
@@ -27,7 +27,7 @@ function ProjectList () {
         name: 'La chouette',
         picture: '/img/p4_portfolio.png',
         type: "école.",
-        languages: ['SEO css.'],
+        languages: 'SEO css.',
         source: 'https://github.com/vitinolo/P4',
         info: 'Optimisez un site web existant.',
       },
@@ -36,7 +36,7 @@ function ProjectList () {
         name: 'Kanap',
         picture: '/img/p5_portfolio.png',
         type: "école.",
-        languages: ['javascript API.'],
+        languages: 'javascript API.',
         source: 'https://github.com/vitinolo/p5_kanap',
         info: 'Construisez un site e-commerce en JavaScript.',
       },
@@ -45,7 +45,7 @@ function ProjectList () {
         name: 'Piiquantes',
         picture: '/img/p6_portfolio.webp',
         type: "école.",
-        languages: ['backend API.'],
+        languages: 'backend node API.',
         source: 'https://github.com/vitinolo/p6',
         info: "Construisez une API sécurisée pour une application d'avis gastronomiques.",
       },
@@ -54,7 +54,7 @@ function ProjectList () {
         name: 'Groupomania',
         picture: '/img/p7_portfolio.webp',
         type: "école.",
-        languages: ['javascript react css.'],
+        languages: 'javascript react css.',
         source: 'https://github.com/vitinolo/P7_Creez_un_reseau_social_d_entreprise',
         info: "Créez un réseau social d'entreprise.",
       },
@@ -63,15 +63,15 @@ function ProjectList () {
         name: 'Sky drone air',
         picture: '/img/skydroneair_portfolio.png',
         type: 'individuel.',
-        languages: ['javascript react css.'],
+        languages: 'javascript react css.',
         source: 'https://skydroneair.netlify.app/',
         info: "Création d'un site de prise de vue par drone.",
       },
     ];
     return (
-      <>
-        <h1>Projets</h1> 
-        <div className='projectList'> 
+      <div className='project'>
+        <span>Mes projets</span> 
+        <div className='projectList tilt-in-bl'> 
             { projects.map((project) =>(
                 <Card 
                     key={project.id}
@@ -86,7 +86,7 @@ function ProjectList () {
               ))
             }        
         </div>
-      </>
+      </div>
     );
 };
 
