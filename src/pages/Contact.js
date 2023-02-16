@@ -11,12 +11,13 @@ const Contact = () => {
             <Light />
             <div className='contactContent'>
                 <span>Retrouvez-moi sur Linkedin &nbsp;
-                    <a href="https://www.linkedin.com/in/thibaut-lenoir-5ab863238/"  aria-label="lien linkedin" target="_blank" rel="noopener noreferrer" title="linkedin">
+                    <a href="https://www.linkedin.com/in/thibaut-lenoir-5ab863238/"  aria-label="lien linkedin" target="_blank" rel="noopener noreferrer" title="lien linkedin">
                         <i className="fab fa-linkedin"></i>,
                     </a> sur github  &nbsp;
-                    <a href="https://github.com/vitinolo"  aria-label="lien github" target="_blank" rel="noopener noreferrer" title="github">
+                    <a href="https://github.com/vitinolo"  aria-label="lien github" target="_blank" rel="noopener noreferrer" title="lien github">
                         <i className="fab fa-github"></i>,
-                    </a> ou par mail: &nbsp;lenoir677@gmail.com
+                    </a> ou par &nbsp;
+                    <a href="mailto:lenoir677@gmail.com" aria-label="lien email" target="_blank" rel="noopener noreferrer" title="lien email">Email.</a>
                 </span>
             </div>
         </div>

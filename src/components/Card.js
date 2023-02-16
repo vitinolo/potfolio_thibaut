@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Card ({type, picture, name, languages, source, info})  {
+function Card ({type, picture, name, languages, source, lien, info})  {
     return (
         <div className='projectContent'>
             <>
@@ -11,6 +11,7 @@ function Card ({type, picture, name, languages, source, info})  {
                 <div className='wrapper2'>
                     <div className='type'>Type de projet: {type}</div>
                     <div className="source"><a href={source} title='cliquer vers code source'>Code source</a></div>
+                    <div className="source"><a href={lien} title='cliquer vers le site'>Lien site</a></div>
                     <div className='languages'>Langages: {languages}</div>
                     <div className="info">Info: {info}</div>
                 </div>
