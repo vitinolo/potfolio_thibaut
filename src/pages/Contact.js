@@ -16,7 +16,7 @@ const Contact = () => {
                     </a> sur github  &nbsp;
                     <a href="https://github.com/vitinolo"  aria-label="lien github" target="_blank" rel="noopener noreferrer" title="lien github">
                         <i className="fab fa-github"></i>,
-                    </a> ou par &nbsp;
+                    </a> et contactez moi par &nbsp;
                     <a href="mailto:lenoir677@gmail.com" aria-label="lien email" target="_blank" rel="noopener noreferrer" title="lien email">Email.</a>
                 </span>
             </div>
