@@ -1,0 +1,92 @@
+//responsive navigation
+@media screen and (max-width:650px){
+    .navigation{
+        width:100%;
+        .navigationContent{
+            .leftContent{
+               display:none;
+            }
+            ul{
+                width:100%;
+            }
+    
+        }
+
+    }
+
+}
+@media screen and (min-width:321px) and (max-width:450px){
+    .navigation .navigationContent ul li span{
+            font-size: 15px;
+    }
+}
+@media screen and (min-width:100px) and (max-width:320px){
+    .navigation .navigationContent ul li span{
+        font-size: 10px;
+}
+}
+//responsive à propos
+@media screen and (max-width:1050px){
+    .about .aboutContent{
+        padding:12%;
+        .wrapper{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-auto-rows: minmax(250px, auto);
+        }
+        .card{
+            width:90%;
+            margin: 10px;
+        }
+    }
+
+}
+@media screen and (max-width:650px){
+    .about .aboutContent{
+        h1{
+            margin:20px 0px 0px 0px;
+        }
+    }
+
+}
+@media screen and (max-width:450px){
+    .about .aboutContent{
+        padding:12%;
+        .wrapper{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-auto-rows: minmax(250px, auto);
+        }
+        .card{
+            width:90%;
+            margin: 10px;
+        }
+    }
+}
+//responsive projets
+@media screen and (max-width:830px){
+    .projectsContent .project {
+        padding:12%;
+        .projectList{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-auto-rows: minmax(250px, auto);
+        }
+    }
+}
+@media screen and (max-width:450px){
+    .projectsContent .project {
+        padding:12%;
+        .projectList{
+            .projectContent img{
+                width:250px;
+            }
+        }
+    }
+}
+//responsive contact
+@media screen and (max-width:450px){
+    .contact .contactContent span{
+        font-size: 30px;
+    }
+}
