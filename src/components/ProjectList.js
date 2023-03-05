@@ -2,10 +2,9 @@ import React from 'react';
 import Card from './Card';
 
 function ProjectList () {
-
   const projects = [
       {
-        id: 1,
+        id: 8,
         name: 'Booki',
         picture: 'img/p2_portfolio.webp',
         type: "école.",
@@ -15,7 +14,7 @@ function ProjectList () {
         info: 'Transformez une maquette en site web avec HTML & CSS.', 
       },
       {
-        id: 2,
+        id: 7,
         name: 'Ohmyfood',
         picture: '/img/p3_portfolio.webp',
         type: "école.",
@@ -25,7 +24,7 @@ function ProjectList () {
         info: 'Dynamisez une page web avec des animations CSS.',
       },
       {
-        id: 3,
+        id: 6,
         name: 'La chouette',
         picture: '/img/p4_portfolio.webp',
         type: "école.",
@@ -35,7 +34,7 @@ function ProjectList () {
         info: 'Optimisez un site web existant.',
       },
       {
-        id: 4,
+        id: 5,
         name: 'Kanap',
         picture: '/img/p5_portfolio.webp',
         type: "école.",
@@ -45,7 +44,7 @@ function ProjectList () {
         info: 'Construisez un site e-commerce en JavaScript.',
       },
       {
-        id: 5,
+        id: 4,
         name: 'Piiquantes',
         picture: '/img/p6_portfolio.webp',
         type: "école.",
@@ -55,7 +54,7 @@ function ProjectList () {
         info: "Construisez une API sécurisée pour une application d'avis gastronomiques.",
       },
       {
-        id: 6,
+        id: 3,
         name: 'Groupomania',
         picture: '/img/p7_portfolio.webp',
         type: "école.",
@@ -65,7 +64,7 @@ function ProjectList () {
         info: "Créez un réseau social d'entreprise.",
       },
       {
-        id: 7,
+        id: 2,
         name: 'Sky drone air',
         picture: '/img/skydroneair_portfolio.webp',
         type: 'individuel.',
@@ -75,7 +74,7 @@ function ProjectList () {
         info: "Création d'un site de prise de vue par drone.",
       },
       {
-        id: 8,
+        id: 1,
         name: 'Portfolio de Thibaut',
         picture: '/img/portfolio.webp',
         type: 'individuel.',
