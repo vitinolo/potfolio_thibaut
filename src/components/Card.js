@@ -2,7 +2,7 @@ import React from 'react';
 
 function Card ({type, picture, name, languages, source, lien, info})  {
     return (
-        <div className='projectContent'>
+        <div className='projectContent scale-in-center'>
             <>
                 <div className='wrapper'>
                     <h1>{name}</h1>

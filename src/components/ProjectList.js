@@ -87,7 +87,7 @@ function ProjectList () {
     return (
       <div className='project'>
         <span>Mes projets</span> 
-        <div className='projectList tilt-in-bl'> 
+        <div className='projectList'> 
             { projects.map((project) =>(
                 <Card 
                     key={project.id}

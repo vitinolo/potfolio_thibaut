@@ -31,7 +31,7 @@ const LanguagesAbout = () => {
     ]
     return (
     <div className='languages card'>
-        <span>Langages utilisés:</span>
+        <span>Langages:</span>
         {   languages
                 .map((language) =>(
                     <CardAbout
